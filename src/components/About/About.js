@@ -30,7 +30,7 @@ function About() {
         <Row className="skill-tools-wrapper" style={{margin:'70px'}}>
           <Col className="skill-wrapper">
             <h1 className="project-heading">
-              Professional <strong className="purple">Skillset </strong>
+               <strong className="purple">Tech Stack </strong>
             </h1>
             {SKILLS.map((skill, index) => (
               <Techstack
@@ -40,16 +40,7 @@ function About() {
               />
             ))}
           </Col>
-          <Col className="skill-wrapper">
-            <h1 className="project-heading">
-              <strong className="purple">Tools</strong> I use
-            </h1>
-            {TOOLS.map((tool, index) => (
-              <ul key={index} className="tool-name">
-                <li>{tool}</li>
-              </ul>
-            ))}
-          </Col>
+          
         </Row>
       </Container>
     </Container>

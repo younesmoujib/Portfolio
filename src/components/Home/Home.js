@@ -10,9 +10,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={6} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!
-              </h1>
+              
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> Moujib Younes</strong>
@@ -23,7 +21,7 @@ function Home() {
             </Col>
 
             <Col md={5}>
-              <Image src={myImg} style={{ marginTop: '150px', width: '350px', height: '300px' }} roundedCircle />
+              <Image src={myImg} style={{ marginTop: '120px', width: '350px', height: '300px' }} roundedCircle />
             </Col>
           </Row>
         </Container>
